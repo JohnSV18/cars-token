@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/JohnSV18/cars-token/issues"
   },
-  "homepage": "https://github.com/JohnSV18/cars-token#readme"
+  "homepage": "https://github.com/JohnSV18/cars-token#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "dotenv": "^10.0.0"
+  }
 }
