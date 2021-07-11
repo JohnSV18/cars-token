@@ -1,0 +1,22 @@
+{
+  "name": "cars-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnSV18/cars-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnSV18/cars-token/issues"
+  },
+  "homepage": "https://github.com/JohnSV18/cars-token#readme"
+}
