@@ -35,7 +35,7 @@ const App = {
     generateRandomCarData: async function (to) {
         // Car specs
         var carSpecs = {
-            topSpeed: `${Math.round(Math.random() * 400)} MPH`,
+            topSpeed: `${Math.round(Math.random() * 400) + 30} MPH`,
             zeroSixty: `${(Math.random() * 9 + 1).toFixed(2)}s`,
             horsepower: Math.round(Math.random() * 1000)
         }
@@ -58,7 +58,7 @@ const App = {
         };
 
         // Tell the user we're generating the car
-        this.setStatus("Generating a crypto car... please wait!");
+        this.setStatus("Generating a crypto car... please wait, it can take a while!");
 
         // Add the metadata to IPFS first, because our contract requires a
         // valid URL for the metadata address.
