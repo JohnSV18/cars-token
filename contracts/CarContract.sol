@@ -11,7 +11,6 @@ contract CarContract is ERC721URIStorage {
     Counters.Counter private _tokenIds;
 
     constructor() ERC721("CryptoCars", "CCARS") {
-    
 
     }
 

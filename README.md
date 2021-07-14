@@ -1,2 +1,8 @@
-#contract Address
-#0x7ae29385F563F788e95C244b65e36F995778f86b
+# Cars That Live on the Ethereum Blockchain
+
+To run:
+run `truffle build` and note the `contract address`.  
+
+Add the `contract address` to your metamask wallet.  
+
+Run `npm run dev` to start the dev server, connect your metamask wallet when prompted.

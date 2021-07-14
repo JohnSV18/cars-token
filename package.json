@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,18 @@
   },
   "homepage": "https://github.com/JohnSV18/cars-token#readme",
   "dependencies": {
+    "@fleekhq/fleek-storage-js": "^1.0.17",
     "@openzeppelin/contracts": "^4.2.0",
     "@truffle/hdwallet-provider": "^1.2.3",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "dotenv-webpack": "^7.0.3",
+    "truffle-default-builder": "^2.0.0",
+    "web3": "^1.4.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.9.0"
   }
 }
