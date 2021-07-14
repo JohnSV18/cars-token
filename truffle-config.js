@@ -60,7 +60,14 @@ module.exports = {
       configurations:2, 
       timeoutBlocks: 200,
       skipDryRun: true
-    }
+    },
+
+    build: new DefaultBuilder({
+      "index.html": "index.html", 
+      "app.js": [
+        "js/index.js"
+      ]
+    })
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port
