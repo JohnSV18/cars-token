@@ -1,8 +1,8 @@
-# Crytpo Cars 🚗
+# Crypto Cars 🚗
 ![car image](https://wallpaperaccess.com/full/4972888.jpg)
 
 ### Description:
-Crytpo Cars is an ERC-721 Token. To get a car, enter your wallet address and receive an unique random crytpo car. 
+Crypto Cars is an ERC-721 Token. To get a car, enter your wallet address and receive an unique random crypto car. 
 
 
 ### Prerequisites
@@ -44,8 +44,6 @@ $ npm run dev
 ## Built With
 
 * [Solidity](https://docs.soliditylang.org/en/v0.8.6/) - Programming Language
-*  Love
-
 
 ## License
 
